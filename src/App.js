@@ -27,7 +27,7 @@ function App() {
         {scroll_arrows(1)}
       </header>
       <div class="page" id="experience">
-        <h2>Full Stack Engineer</h2>
+        <h2>Full Stack Software Engineer</h2>
         <div className="flex-container">
           {language_box(rust_logo, "Rust")}
           {language_box(python_logo, "Python")}

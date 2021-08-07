@@ -5,8 +5,6 @@
 }
 
 .language-card {
-  background-color: rgba(0, 0, 0, 0.1);
-  border: 3px solid black;
   width: 250px;
   height: 35vh;
   margin: 15px;
@@ -84,11 +82,26 @@
 }
 
 #showcase {
-  background: rgb(0,0,0);
-background: -moz-linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(244,255,100,1) 38%, rgba(255,250,205,1) 70%);
-background: -webkit-linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(244,255,100,1) 38%, rgba(255,250,205,1) 70%);
-background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(244,255,100,1) 38%, rgba(255,250,205,1) 70%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#fffacd",GradientType=1);
+  background: rgb(0, 0, 0);
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(244, 255, 100, 1) 38%,
+    rgba(255, 250, 205, 1) 70%
+  );
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(244, 255, 100, 1) 38%,
+    rgba(255, 250, 205, 1) 70%
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(244, 255, 100, 1) 38%,
+    rgba(255, 250, 205, 1) 70%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#fffacd",GradientType=1);
   display: flex;
   flex-direction: column;
   align-items: center;

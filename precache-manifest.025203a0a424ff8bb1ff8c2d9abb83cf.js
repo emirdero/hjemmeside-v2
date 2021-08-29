@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8bdad14e31b1c79d6c43935a8a7a3a1a",
+    "revision": "49d87501829c87b368ddff3122ebd483",
     "url": "/hjemmeside-v2/index.html"
   },
   {
-    "revision": "57b67847b5c872cae6fd",
+    "revision": "1c6675f754e3a73cf569",
     "url": "/hjemmeside-v2/static/css/main.e7fed615.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hjemmeside-v2/static/js/2.6f317db9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "57b67847b5c872cae6fd",
-    "url": "/hjemmeside-v2/static/js/main.28775b1c.chunk.js"
+    "revision": "1c6675f754e3a73cf569",
+    "url": "/hjemmeside-v2/static/js/main.5fdee878.chunk.js"
   },
   {
     "revision": "cf5ab42e7685198b7490",

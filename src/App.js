@@ -40,7 +40,7 @@ function App() {
         >
           <div>
             <a
-              href="/Emir_Derouiche_CV.pdf"
+              href="/hjemmeside-v2/Emir_Derouiche_CV.pdf"
               style={{ textDecoration: "none", color: "white" }}
             >
               <DescriptionIcon style={{ fontSize: 40 }} />

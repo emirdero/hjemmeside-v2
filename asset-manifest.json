@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/hjemmeside-v2/static/css/main.e7fed615.chunk.css",
-    "main.js": "/hjemmeside-v2/static/js/main.00e100da.chunk.js",
-    "main.js.map": "/hjemmeside-v2/static/js/main.00e100da.chunk.js.map",
+    "main.js": "/hjemmeside-v2/static/js/main.28775b1c.chunk.js",
+    "main.js.map": "/hjemmeside-v2/static/js/main.28775b1c.chunk.js.map",
     "runtime-main.js": "/hjemmeside-v2/static/js/runtime-main.6c763d75.js",
     "runtime-main.js.map": "/hjemmeside-v2/static/js/runtime-main.6c763d75.js.map",
     "static/js/2.6f317db9.chunk.js": "/hjemmeside-v2/static/js/2.6f317db9.chunk.js",
     "static/js/2.6f317db9.chunk.js.map": "/hjemmeside-v2/static/js/2.6f317db9.chunk.js.map",
     "index.html": "/hjemmeside-v2/index.html",
-    "precache-manifest.037f1eaed8b617b30a499b41e9ea245a.js": "/hjemmeside-v2/precache-manifest.037f1eaed8b617b30a499b41e9ea245a.js",
+    "precache-manifest.3528b2f8d6cb78a5a26d61f70fbb274d.js": "/hjemmeside-v2/precache-manifest.3528b2f8d6cb78a5a26d61f70fbb274d.js",
     "service-worker.js": "/hjemmeside-v2/service-worker.js",
     "static/css/main.e7fed615.chunk.css.map": "/hjemmeside-v2/static/css/main.e7fed615.chunk.css.map",
     "static/js/2.6f317db9.chunk.js.LICENSE.txt": "/hjemmeside-v2/static/js/2.6f317db9.chunk.js.LICENSE.txt",
@@ -34,6 +34,6 @@
     "static/js/runtime-main.6c763d75.js",
     "static/js/2.6f317db9.chunk.js",
     "static/css/main.e7fed615.chunk.css",
-    "static/js/main.00e100da.chunk.js"
+    "static/js/main.28775b1c.chunk.js"
   ]
 }

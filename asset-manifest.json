@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/hjemmeside-v2/static/css/main.e7fed615.chunk.css",
+    "main.js": "/hjemmeside-v2/static/js/main.28775b1c.chunk.js",
+    "main.js.map": "/hjemmeside-v2/static/js/main.28775b1c.chunk.js.map",
+    "runtime-main.js": "/hjemmeside-v2/static/js/runtime-main.6c763d75.js",
+    "runtime-main.js.map": "/hjemmeside-v2/static/js/runtime-main.6c763d75.js.map",
+    "static/js/2.6f317db9.chunk.js": "/hjemmeside-v2/static/js/2.6f317db9.chunk.js",
+    "static/js/2.6f317db9.chunk.js.map": "/hjemmeside-v2/static/js/2.6f317db9.chunk.js.map",
+    "index.html": "/hjemmeside-v2/index.html",
+    "precache-manifest.124aae520864ec5d553bb942ce3ba490.js": "/hjemmeside-v2/precache-manifest.124aae520864ec5d553bb942ce3ba490.js",
+    "service-worker.js": "/hjemmeside-v2/service-worker.js",
+    "static/css/main.e7fed615.chunk.css.map": "/hjemmeside-v2/static/css/main.e7fed615.chunk.css.map",
+    "static/js/2.6f317db9.chunk.js.LICENSE.txt": "/hjemmeside-v2/static/js/2.6f317db9.chunk.js.LICENSE.txt",
+    "static/media/avatar.png": "/hjemmeside-v2/static/media/avatar.ef99e74f.png",
+    "static/media/cpp.png": "/hjemmeside-v2/static/media/cpp.8f42e018.png",
+    "static/media/docker.png": "/hjemmeside-v2/static/media/docker.f30ad777.png",
+    "static/media/flask.png": "/hjemmeside-v2/static/media/flask.297a5567.png",
+    "static/media/graphql.png": "/hjemmeside-v2/static/media/graphql.a7f48025.png",
+    "static/media/java.png": "/hjemmeside-v2/static/media/java.711f654d.png",
+    "static/media/App.css": "/hjemmeside-v2/static/media/landscape.d8ecb137.jpg",
+    "static/media/mysql.png": "/hjemmeside-v2/static/media/mysql.b7a14e27.png",
+    "static/media/php.png": "/hjemmeside-v2/static/media/php.1b29a538.png",
+    "static/media/postgresql.png": "/hjemmeside-v2/static/media/postgresql.50156c71.png",
+    "static/media/python.png": "/hjemmeside-v2/static/media/python.76fc9aa2.png",
+    "static/media/pytorch_logo.png": "/hjemmeside-v2/static/media/pytorch_logo.f0068063.png",
+    "static/media/react.png": "/hjemmeside-v2/static/media/react.47ce6e77.png",
+    "static/media/react_native.png": "/hjemmeside-v2/static/media/react_native.38a7ae8b.png",
+    "static/media/sql.png": "/hjemmeside-v2/static/media/sql.2a6fe6f6.png",
+    "static/media/typescript.png": "/hjemmeside-v2/static/media/typescript.8656e839.png",
+    "static/media/wip.png": "/hjemmeside-v2/static/media/wip.bfaf5403.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6c763d75.js",
+    "static/js/2.6f317db9.chunk.js",
+    "static/css/main.e7fed615.chunk.css",
+    "static/js/main.28775b1c.chunk.js"
+  ]
+}

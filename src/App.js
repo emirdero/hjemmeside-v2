@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "./avatar.png";
 import rust_logo from "./icons/rust.png";
 import cpp_logo from "./icons/cpp.png";
@@ -18,22 +18,51 @@ import typescript_logo from "./icons/typescript.png";
 import postgresql_logo from "./icons/postgresql.png";
 import mysql_logo from "./icons/mysql.png";
 import wip from "./wip.png";
+import DescriptionIcon from "@material-ui/icons/Description";
+import GitHubIcon from "@material-ui/icons/GitHub";
 
 import "./App.css";
 
 function App() {
   return (
-    <div className='App'>
-      <header class='page' id='App-header'>
+    <div className="App">
+      <header class="page" id="App-header">
         <br />
-        <img src={logo} className='App-logo' alt='logo' />
+        <img src={logo} className="App-logo" alt="logo" />
         <h2>Emir Derouiche</h2>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            width: "20%",
+            justifyContent: "space-evenly",
+          }}
+        >
+          <div>
+            <a
+              href="/Emir_Derouiche_CV.pdf"
+              style={{ textDecoration: "none", color: "white" }}
+            >
+              <DescriptionIcon style={{ fontSize: 40 }} />
+              <p style={{ marginTop: -7 }}>CV</p>
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://github.com/emirdero"
+              style={{ textDecoration: "none", color: "white" }}
+            >
+              <GitHubIcon style={{ fontSize: 40 }} />
+              <p style={{ marginTop: -7 }}>Github</p>
+            </a>
+          </div>
+        </div>
         <br />
         {scroll_arrows(1)}
       </header>
-      <div class='page' id='experience'>
+      <div class="page" id="experience">
         <h2>Full Stack Software Engineer</h2>
-        <div className='flex-container'>
+        <div className="flex-container">
           {language_box(rust_logo, "Rust")}
           {language_box(python_logo, "Python")}
           {language_box(typescript_logo, "Typescript")}
@@ -52,7 +81,7 @@ function App() {
         </div>
         {scroll_arrows(2)}
       </div>
-      <div class='page' id='showcase'>
+      <div class="page" id="showcase">
         <h2>Showcase</h2>
         {language_box(wip, "")}
       </div>
@@ -62,8 +91,8 @@ function App() {
 
 function language_box(src, txt) {
   return (
-    <div class='language-card'>
-      <div className='img-area'>
+    <div class="language-card">
+      <div className="img-area">
         <img src={src}></img>
       </div>
       <h3>{txt}</h3>
@@ -73,18 +102,18 @@ function language_box(src, txt) {
 
 function scroll_arrows(page) {
   return (
-    <div class='arrowAnim' onClick={() => scroll_down(page)}>
-      <div class='arrowSliding'>
-        <div class='arrow'></div>
+    <div class="arrowAnim" onClick={() => scroll_down(page)}>
+      <div class="arrowSliding">
+        <div class="arrow"></div>
       </div>
-      <div class='arrowSliding delay1'>
-        <div class='arrow'></div>
+      <div class="arrowSliding delay1">
+        <div class="arrow"></div>
       </div>
-      <div class='arrowSliding delay2'>
-        <div class='arrow'></div>
+      <div class="arrowSliding delay2">
+        <div class="arrow"></div>
       </div>
-      <div class='arrowSliding delay3'>
-        <div class='arrow'></div>
+      <div class="arrowSliding delay3">
+        <div class="arrow"></div>
       </div>
     </div>
   );
